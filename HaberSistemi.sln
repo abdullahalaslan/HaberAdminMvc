@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaberSistemi.Admin", "HaberSistemi.Admin\HaberSistemi.Admin.csproj", "{644D162F-A3D4-456E-838A-A3C397371936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaberSistemi.Data", "HaberSistemi.Data\HaberSistemi.Data.csproj", "{AE7C913C-6C6C-4A14-A371-DDBD7B59062D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaberSistemi.Core", "HaberSistemi.Core\HaberSistemi.Core.csproj", "{C65C3A80-6EBE-41D1-ABA1-20FD43765C37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{644D162F-A3D4-456E-838A-A3C397371936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644D162F-A3D4-456E-838A-A3C397371936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644D162F-A3D4-456E-838A-A3C397371936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644D162F-A3D4-456E-838A-A3C397371936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7C913C-6C6C-4A14-A371-DDBD7B59062D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7C913C-6C6C-4A14-A371-DDBD7B59062D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7C913C-6C6C-4A14-A371-DDBD7B59062D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7C913C-6C6C-4A14-A371-DDBD7B59062D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65C3A80-6EBE-41D1-ABA1-20FD43765C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65C3A80-6EBE-41D1-ABA1-20FD43765C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65C3A80-6EBE-41D1-ABA1-20FD43765C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65C3A80-6EBE-41D1-ABA1-20FD43765C37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

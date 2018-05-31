@@ -1,0 +1,7 @@
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Core\bin\Debug\HaberSistemi.Core.dll
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Core\bin\Debug\HaberSistemi.Core.pdb
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Core\bin\Debug\HaberSistemi.Data.dll
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Core\bin\Debug\HaberSistemi.Data.pdb
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Core\obj\Debug\HaberSistemi.Core.csprojResolveAssemblyReference.cache
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Core\obj\Debug\HaberSistemi.Core.dll
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Core\obj\Debug\HaberSistemi.Core.pdb

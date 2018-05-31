@@ -1,0 +1,64 @@
+﻿@model PagedList.IPagedList<HaberSistemi.Data.Model.Kullanici>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Kullanıcı Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+
+    <div class="row">
+        <!-- Responsive table -->
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <header class="panel-heading">@ViewBag.Title</header>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Kullanıcı Adı</th>
+                                    <th>Email</th>
+                                    <th>Şifre</th>
+
+                                    <th>Durum</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td><span class="label label-success">@item.ID</span></td>
+                                        <td>@item.AdSoyad</td>
+                                        <td>@item.Email</td>
+                                        <td>@item.Sifre</td>
+                                        @*<td>@item.Rol.RolAdi</td>*@
+                                      
+                                        <td>
+                                            @if (item.AktifMi == true)
+                                        {
+                                            <b class="label label-success">Aktif</b>
+                                        }
+                                        else
+                                        {
+                                            <b class="label label-danger">Pasif</b>
+                                        }
+                                    </td>
+
+
+                                </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            @Html.PagedListPager(Model, Sayfa => Url.Action("Index", new { Sayfa }), PagedListRenderOptions.TwitterBootstrapPager)
+
+        </div>
+        <!-- /Responsive table -->
+    </div>
+
+</div>

@@ -1,0 +1,51 @@
+﻿@model HaberSistemi.Data.Model.Kullanici
+@{
+    ViewBag.Title = "Kullanıcı Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Basic form -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <header class="panel-heading">@ViewBag.Title</header>
+                <div class="panel-body">
+                    <form role="form">
+                    
+
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Ad Soyad</label>
+                            <input type="text" class="form-control" id="AdSoyad" placeholder="Kullanıcı Ad Soyad">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Kullanıcı Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Şifre</label>
+                            <input type="password" class="form-control" id="sifre" placeholder="Kullanıcı Şifre">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Eklenme Tarihi</label>
+                            <input type="date" class="form-control" id="EklenmeTarihi" placeholder="Eklenme Tarihi">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Rol ID</label>
+                            <input type="text" class="form-control" id="RolID" placeholder="Rol ID">
+                        </div>
+
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="kullaniciAktif" checked> Aktif mi?
+                            </label>
+                        </div>
+                        <a href="#" class="btn btn-default" onclick="KullaniciEkle();">Ekle</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Basic form -->
+</div>

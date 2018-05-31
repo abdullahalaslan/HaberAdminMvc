@@ -1,0 +1,12 @@
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\bin\Debug\HaberSistemi.Data.dll.config
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\bin\Debug\HaberSistemi.Data.dll
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\bin\Debug\HaberSistemi.Data.pdb
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\bin\Debug\EntityFramework.dll
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\bin\Debug\EntityFramework.xml
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\obj\Debug\HaberSistemi.Data.dll
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\obj\Debug\HaberSistemi.Data.pdb
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\obj\Debug\HaberSistemi.Data.csprojResolveAssemblyReference.cache
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\obj\Debug\HaberSistemi.Data.Migrations.Olustur.resources
+C:\Users\AAlsln\documents\visual studio 2015\Projects\HaberSistemi\HaberSistemi.Data\obj\Debug\HaberSistemi.Data.csproj.GenerateResource.Cache
